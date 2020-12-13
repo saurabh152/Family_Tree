@@ -105,3 +105,36 @@ This is a single file contains all the functionalities to be performed. It takes
 
 How to execute the file :->  Run the following command  :
 python  mainfile2.py 
+
+
+
+INPUT                                     &                              OUTPUT
+
+ADD_CHILD Chitra Aria Female                                   CHILD_ADDITION_SUCCEEDED
+GET_RELATIONSHIP Aria Paternal-Aunt                            Satya
+GET_RELATIONSHIP Lavnya Maternal-Uncle                         Ahit
+ADD_CHILD Satya Yaya Female                                    CHILD_ADDITION_SUCCEEDED
+GET_RELATIONSHIP Satvy Sister-In-Law                           Atya Yaya
+GET_RELATIONSHIP Atya Sister-In-Law                            Satvy Krpi
+GET_RELATIONSHIP Vasa Siblings                                 NONE
+ADD_CHILD Pjali Srutak Male                                    PERSON_NOT_FOUND
+GET_RELATIONSHIP Pjali Son                                     PERSON_NOT_FOUND
+ADD_CHILD Asva Vani Female                                     CHILD_ADDITION_FAILED
+GET_RELATIONSHIP Vasa Siblings                                 NONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
